@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  web:
+    image: python:3
+    volumes:
+      - ./code:/code
+    command: tail -F anything
