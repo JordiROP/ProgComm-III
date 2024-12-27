@@ -1,0 +1,1 @@
+DELETE FROM "call" WHERE "employee_id" = 1;
